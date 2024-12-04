@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merillo Portfolio</title>
+    <link rel="stylesheet" href="Merillo.css">
+    <script src="script.js"></script>
+</head>
+<body>
+      <!-- NAVIGATION BAR HERE -->
+      <header class="header">
+          <nav class="navbar">
+           <ul class="phonebar">
+                <li onclick=hideSidebar()><a><p>CLOSE</p></a></li>
+                <li><a href="#hero">HOME</a></li>
+                <li><a href="#aboutSection">ABOUT</a></li>
+                <li><a href="#projects">PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li> 
+              </ul>
+
+            <ul class="topnav">
+              <li class="hideOnMobile" ><a href="#hero">Home</a></li>
+              <li class="hideOnMobile"><a href="#aboutSection">About</a></li>
+              <li class="hideOnMobile"><a href="#projects">Project</a></li>
+              <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+
+              <li class="menu-button" onclick=showSidebar()><a><p>JUMP THROUGH SECTION +</p></a></li>
+            </ul>
+          </nav>
+        </header>
+      <!-- END OF NAVAGITION BAR   -->
+
+      <!-- HERO -->
+      <section class="firstPart" id="hero">
+          <div class="mainContent">
+            <div class="right-column">
+              <div class="profileInfo">
+                <div class="profile-image">
+                  <img src="images/merillo.png" alt="merillo" width="100%" height="auto" style="border-radius: 2%;">
+                </div>
+                
+                <div class="profileDetails">
+                  <p class="mainP">I'm <strong>Junnalyn M. Merillo</strong></p>
+                  <p class="mainP"><strong>BSIT</strong> student</p>
+                  <p class="mainP" id="lastChild">At <strong>Dalubhasaan ng Lunsod ng Lucena</strong></p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      </section>
+      <!-- END OF HERO -->
+
+
+      <!-- ABOUT AND SKILL SECTION HERE -->
+      <section class="about" id="aboutSection">
+        <div class="nouns">
+          <h1> ABOUT ME </h1><br><br>
+          <p  class="text-content">
+            Hi! I'm Junnalyn M. Merillo, a passionate second year college student at Dalubhasaan ng Lungsod ng Lucena.<br> I'm currently taking Bachelor of Science in Information Technology.
+           <br>I’m a curious explorer of technology with a passion for turning ideas into reality.  <br>From designing sleek interfaces to solving complex problems through code, I thrive on the challenge of creating solutions that matter.
+        </p><br>
+        </div>
+
+        <div class="skillContainer">
+          <div class="skill">THINGS <br>AND SKILLS<br>I'M GOOD AT</div>
+          <div class="skillContent">
+              <div class="column">
+                  <p>Web Development</p>
+                  <p>UI/UX Design</p>
+                  <p>AI tools</p>
+                  <p>Programming</p>
+                  </div>
+      
+              <div class="column">
+                  <p>Video Editing</p>
+                  <p>Photo Editing</p>
+                  <p>PPT Making</p>
+              </div>
+      
+              <div class="column">
+                  <p>Think Critically</p>
+                  <p>Innovative</p>
+                  <p>Cooking</p>
+                  <p>Baking</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="toolContainer">
+          <div class="toolContent">
+            <div class="toolTitle">TOOLS I USE AND FAMILIAR WITH</div>
+            <div class="toolsGrid">
+              <div class="toolLogo"><img src="images/Python.png" alt="python logo"><p>Python</p></div>
+              <div class="toolLogo"><img src="images/CSS.png" alt="css logo"><p>CSS</p></div>
+              <div class="toolLogo"><img src="images/HTML.png" alt="html logo"><p>HTML</p></div>
+              <div class="toolLogo"><img src="images/Canva.png" alt="Canva logo"><p>Canva</p></div>
+              <div class="toolLogo"><img src="images/Photoshop.png" alt="photoshop logo"><p>Photoshop</p></div>
+              <div class="toolLogo"><img src="images/Figma.png" alt="figma logo"><p>Figma</p></div>
+              <div class="toolLogo"><img src="images/GitHub.png" alt="github logo"><p>Github</p></div>
+              <div class="toolLogo"><img src="images/Capcut.png" alt="CapCut logo"><p>CapCut</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF ABOUT SECTION -->
+
+
+      <!-- PROJECT SECTION HERE -->
+      <section class="projectSection" id="projects">
+        <div class="jumpContainer">
+
+          <div class="projectDetails">
+            <p class="mainP">DON'T HAVE PROJECT YET</p>
+
+          </div>
+        </div>
+      </section>
+      <!-- END OF PROJECT SECTION -->
+
+
+      <!-- CONTACT SECTION DITO -->
+      <section class="contactSection" id="contact">
+        <div class="contactContainer">
+          <div class="contactText">
+            GET IN TOUCH WITH ME!
+          </div>
+
+          <form class="contactForm">
+            <div class="formRow">
+              <input type="text" placeholder="Name" required />
+              <input type="email" placeholder="Email" required />
+            </div>
+            <textarea placeholder="Write your message here" required></textarea>
+            <button type="submit" class="submitButton">
+              SUBMIT⟶
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <div class="footer">
+        © 2024 Merillo, J. All Rights Reserved.  
+      </div>
+</body>
+</html>
